@@ -1,0 +1,317 @@
+body {
+  background-color: #898989;
+  font-family: 'PT Sans Narrow', sans-serif;
+  margin: -2px;
+  padding; 0px;
+}
+
+header {
+  background-color: #494368;
+  margin-top: 0px;
+}
+
+h1 {
+  font-size: 2.4em;
+  margin: 2% auto 2% 30px;
+}
+
+.header__dropdown--button {
+  background-color: #494368;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 16px;
+  width: 125px;
+}
+
+.header__dropdown {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+}
+
+.dropdown-content {
+  background-color: #E3E3E3;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: none;
+  min-width: 80px;
+  position: absolute;
+  width: 125px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #898989;
+}
+
+.header__dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+.header__dropdown:hover .header__dropdown--button {
+  background-color: #ECC13F;
+}
+
+.header__buttons {
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+}
+  
+li.header__list {
+  cursor: pointer;
+  flex-basis: 150px;
+  font-size: 1.2em;
+  list-style: none;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  transition: .5s;
+  vertical-align: middle;
+}
+
+li:hover {
+  color: #ECC13F;
+}
+
+#dropdown-icon {
+  margin-right: 10px;
+}
+
+.header__buttons svg {
+  padding-right: 10px;
+}
+
+img.header__logo {
+  float: right;
+  height: 75px;
+  margin: 15px 28px 20px 0px;
+}
+
+.body__tiles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.box {
+  background-color: #E3E3E3;
+  border: 1px solid black;
+  box-shadow: 0px 0px 2px 2px #ccc;
+  height: 510px;
+  margin: 5px;
+  padding: 5px, 35px, 10px, 35px;
+  width: 300px;
+} 
+
+.box__header--bigbend {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/big-bend-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--carlsbad {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/carlsbad-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--everglades {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/everglades-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--grand-teton {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/grand-teton-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--guadalupe {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/guadalupe-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--painted {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/painted-desert-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--yellowstone {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/yellowstone-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.box__header--zion {
+  align-content: center;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(assets/zion-photo.jpg);
+  background-position: bottom;
+  background-size: cover;
+  color: white;
+  float: right;
+  height: 200px;
+  margin: 0px 0px 25px 0px;
+  padding: 0px;
+  width: 300px;
+}
+
+.template {
+  background-color: #E3E3E3;
+  border: 1px solid black;
+  height: 510px;
+  margin: 5px;
+  padding: 5px, 35px, 10px, 35px;
+  visibility: hidden;
+  width: 300px;
+} 
+
+img.box__header--icon {
+  height: 65px;
+  margin: 20px;
+}
+
+div.box__header--text {
+  float:right;
+  margin: 10px;
+  width: 50px;
+}
+
+p.box__header--visits {
+  margin: 10px 5px 0px 5px;
+}
+
+p.box__header--views {
+  font-size: 2.5em;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 0px 0px 0px;
+}
+
+div.box__body {
+  margin: 25px 15px 25px 15px;
+}
+
+p.box__body-textline1 {
+  font-size: 1.2em;
+  line-height: 100%;
+  margin: 25px 0px 3px 0px;
+}
+
+p.box__body-textline2 {
+  color: #A5A1A5;
+  font-size: .9em;
+  line-height: 100%;
+  margin: 3px 0px 15px 0px;
+}
+
+div.box__body--website {
+  background-color: #898989;
+  margin: 17px 0px 17px 0px;
+  padding: 5px 5px 5px 5px;
+  transition: 0.5s;
+}
+
+.box__body--website:hover {
+  color: #ECC13F;
+  cursor: pointer;
+
+}
+
+p.box__body--website-text {
+  margin: 10px 7px 10px 7px;
+}
+
+p.box__body-favfeature {
+  font-size: .9em; 
+  line-height: 100%;
+  margin: 17px 0px 5px 0px;
+}
+
+p.box__body-favfeture-answer {
+  font-size: 1.2em;
+  line-height: 100%;
+  margin: 5px 0px 17px 0px;
+}
+
+p.box__body-ranking {
+  font-size: .9em; 
+  letter-spacing: .6px;
+  line-height: 100%;
+  margin: 17px 0px 0px 0px;
+}
+
+p.box__body-textline7 {
+  color: #F06543;
+  font-size: 2.4em;
+  line-height: 100%;
+  margin: 0px 0px 10px 0px;
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) {
+  
+.body__tiles {
+  flex-wrap: column;
+}
+
