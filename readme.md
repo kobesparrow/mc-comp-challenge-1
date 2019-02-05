@@ -8,7 +8,7 @@ Static Comp One — otherwise known as Card UI, otherwise-otherwise known as Car
 #### Finished Product
 Static Comp One finished project by Mark R. Collins
 
-[![screencapture-file-Users-doc-Turing-Projects-mod-One-static-comp.png](https://i.postimg.cc/htKDPXxM/screencapture-file-Users-doc-Turing-Projects-mod-One-static-comp.png)](https://postimg.cc/ykr4LYLS)
+[![screencapture-file-Users-doc-Turing-Projects-mod-One-static-comp.png](https://i.postimg.cc/7Z72js7d/screencapture-file-Users-doc-Turing-Projects-mod-One-static-comp.png)](https://postimg.cc/cvxCncFB)
 
 #### Biggest Win
 Sitting down with psuedo code and writing code without looking at notes or referencing Google. The pace at Turing is so fast you don't realize you really *are* learning things. Being able to speak the language and have the code do what I intended was a solidifying moment and harbinger of good things to come. I'm also pretty darn pleased with my fade-in hover effects.
